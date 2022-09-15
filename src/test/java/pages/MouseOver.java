@@ -27,6 +27,7 @@ WebDriver driver;
 	
 	public int count_mentod()
 	{
+		System.out.println(count.getText());
 		return Integer.parseInt(count.getText());
 	}
 }
